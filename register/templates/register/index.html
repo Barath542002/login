@@ -22,7 +22,7 @@
         <h3>Welcome to Barath Balaji Family</h3>
 
         {% if user.is_authenticated %}
-        <h3>Hello {{ user.first_name }}</h3>
+        <h3>Hello {{ myuser.first_name }}</h3>
         <h4>You're Successfully Logged In.</h4>
         <button type="submit"><a href="/signout"> SignOut</a></button>
         {% else %}
